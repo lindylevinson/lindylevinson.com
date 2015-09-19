@@ -1,0 +1,82 @@
+body {
+  background-image: url(../img/background-twitter.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #f3e7ff;
+  height: 100%;
+}
+section {
+  margin-left: 40%;
+  margin-top: 10%;
+  width: 45%;
+  text-align: center;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 60px;
+  color: #231a2f;
+  padding: 18px 0 10px 0;
+  border-top: 1px solid #231a2f;
+  border-bottom: 1px solid #231a2f;
+}
+section p {
+  font-family: 'Halant', serif;
+  font-weight: lighter;
+  font-size: 20px;
+  line-height: 35px;
+  width: 85%;
+  text-align: left;
+  margin: auto;
+  color: #231a2f;
+}
+section p:last-child {
+  margin-bottom: 20%;
+}
+footer p, a {
+  font-family: 'Halant', serif;
+  text-align: right;
+  text-decoration: none;
+  color: #deceee;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.social img {
+  width: 30px;
+  margin: 25px 3px 15px 3px;
+}
+.mobile {
+  display: none;
+}
+
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ *
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+/*html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+#header {
+  background: #ededed;
+  padding: 10px;
+}
+#content {
+  padding-bottom: 30px; /* Height of the footer element */
+}
+/*#footer {
+  width: 100%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}*/*/

@@ -1,0 +1,22 @@
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: none;
+    background-color: #f3e7ff;
+  }
+  section {
+    margin: 15px auto;
+    width: 80%;
+  }
+  p {
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    border-radius: 50%;
+    width: 100%;
+    margin: 25px 0;
+  }
+}
