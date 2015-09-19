@@ -29,6 +29,9 @@ section p {
   margin: auto;
   color: #231a2f;
 }
+nav {
+  width: 100%;
+}
 section p:last-child {
   margin-bottom: 15%;
 }
@@ -40,9 +43,39 @@ footer p, a {
   margin-bottom: 0px;
   margin-right: 5px;
 }
-.social img {
+.icons {
+  width: 120px;
+  height: 50px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+.social {
+  background-repeat: no-repeat;
+  background-size: 100%;
   width: 30px;
-  margin: 25px 3px 15px 3px;
+  height: 30px;
+  margin: 5px;
+  float: left;
+  margin: 10px 5;
+}
+.twitter {
+  background-image: url(../img/twitter-icon.png);
+}
+.twitter:hover {
+  background-image: url(../img/twitter-icon-mouseover.png);
+}
+.linkedin {
+  background-image: url(../img/linkedin-icon.png);
+}
+.linkedin:hover {
+  background-image: url(../img/linkedin-icon-mouseover.png);
+}
+.mail {
+  background-image: url(../img/mail-icon.png);
+}
+.mail:hover {
+  background-image: url(../img/mail-icon-mouseover.png);
 }
 .mobile {
   display: none;
