@@ -1,0 +1,60 @@
+.contact {
+  background-color: #ffffff;
+  text-align: center;
+  color: #bababa;
+  margin: 100px 0;
+}
+.contact p {
+  color: #182024;
+}
+.footnote p, .footnote a {
+  font-size: 12px;
+  line-height: 16px;
+  color: #bababa;
+}
+.contact h3 {
+  font-weight: 200;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  box-sizing: border-box;
+  /* clip-path: polygon(0% 0%, 100% 10%, 100% 100%, 0 90%); */
+}
+.icons-inner {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.linkedin, .mail, .twitter {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100%;
+  cursor: pointer;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+.linkedin {
+  background-image: url("../img/linkedin-gray.png");
+}
+.mail {
+  background-image: url("../img/mail-gray.png");
+}
+.twitter {
+  background-image: url("../img/twitter-gray.png");
+}
+.linkedin:hover {
+  background-image: url("../img/linkedin-pink.png");
+}
+.mail:hover {
+  background-image: url("../img/mail-pink.png");
+}
+.twitter:hover {
+  background-image: url("../img/twitter-pink.png");
+}
