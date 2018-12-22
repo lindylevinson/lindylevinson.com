@@ -118,11 +118,17 @@ li {
   padding: 1px;
   z-index: 1;
   margin-top: 325px;
+  align-items: flex-end;
+  display: flex;
+  height: 100vh;
+}
+.hello h2 {
+  margin-right: -750px;
+  z-index: 99;
 }
 .triangle {
   width: 0;
   height: 0;
-  /* border-left: 300px solid rgba(55,75,84,.9); */
   border-left: 300px solid rgba(219,186,175,.9);
   border-top: 200px solid transparent;
   border-right: 300px solid transparent;
@@ -179,7 +185,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .2s ease-in-out;
-  margin: 10px;
+  margin: 25px;
   width: 100%;
   height: auto;
 }
@@ -202,7 +208,7 @@ li {
   justify-content: center;
   align-items: center;
   height: 100%;
-  min-height: 150px;
+  min-height: 200px;
   box-sizing: border-box;
   margin: -1px;
 }
@@ -214,13 +220,13 @@ li {
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
-  font-weight: 100;
   text-decoration: none;
   transition: all 100ms ease-in-out;
   color: #182024;
-  font-weight: 700;
+  font-weight: 400;
   padding: 25px;
-    width: 100%;
+  width: 100%;
+  font-size: 1.2rem;
 }
 .about {
   padding: 100px 0 0 0;
