@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 25px 50px;
   margin: 0;
   position: fixed;
   width: 100%;
@@ -17,19 +17,19 @@ header {
   background: linear-gradient(to bottom, transparent, transparent 90%, #dbbaaf 90%, #dbbaaf 100%);
 }
 nav {
-  width: 200px;
+  width: 175px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 14px;
-  color: #182024;
   z-index: 99;
   transition: 0.5s all;
   align-items: center;
 }
 header a {
   text-decoration: none;
-  color: #182024;
+  color: #696969;
   z-index: 99;
   line-height: 1;
   transition: 0.5s all;
+  font-weight: 400;
 }

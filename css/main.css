@@ -3,11 +3,11 @@ html {
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 100;
-  color: #182024;
+  font-weight: 400;
+  color: #696969;
   position: relative;
   z-index: 50;
-  /* background-color: #ffffff; */
+  -webkit-font-smoothing: antialiased;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -16,9 +16,9 @@ body {
   flex-direction: column;
 }
 section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -51,15 +51,17 @@ section {
 @keyframes scrollup {
     0% {
       padding: 300px 30px 300px 30px;
+      height: 100vh;
     }
     100%   {
       padding: 150px 30px 100px 30px;
+      height: 33vh;
     }
 
 }
 h1 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
 }
 h2 {
@@ -74,8 +76,7 @@ h2 {
 h3 {
   margin: 0;
   font-size: 36px;
-  font-weight: 100;
-  color: #182024;
+  font-weight: 400;
   text-transform: uppercase;
 }
 p {
@@ -154,7 +155,7 @@ li {
   background-color: #e8b37f;
 }
 .black {
-  background-color: #182024;
+  background-color: #545454;
 }
 .gray {
   background-color: #FAFAFA;
@@ -177,7 +178,6 @@ li {
 .buttons {
   box-sizing: border-box;
   text-align: center;
-  margin: 100px 0 50px;
   padding: 100px 25px;
 }
 .doa, .opc, .pc {
@@ -222,14 +222,11 @@ li {
   text-align: center;
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  color: #182024;
+  color: #545454;
   font-weight: 400;
   padding: 25px;
   width: 100%;
   font-size: 1.2rem;
-}
-.about {
-  padding: 100px 0 0 0;
 }
 .about-inner {
   display: -webkit-box;
@@ -238,8 +235,8 @@ li {
   display: -webkit-flex;
   display: flex;
   vertical-align: middle;
-  align-items: center;
   justify-content: center;
+  padding: 200px 0;
 }
 .about figure {
   width: 33%;
