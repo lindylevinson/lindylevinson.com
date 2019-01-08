@@ -3,11 +3,11 @@ html {
 }
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 100;
-  color: #182024;
+  font-weight: 400;
+  color: #696969;
   position: relative;
   z-index: 50;
-  /* background-color: #ffffff; */
+  -webkit-font-smoothing: antialiased;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -16,9 +16,9 @@ body {
   flex-direction: column;
 }
 section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -51,15 +51,17 @@ section {
 @keyframes scrollup {
     0% {
       padding: 300px 30px 300px 30px;
+      height: 100vh;
     }
     100%   {
       padding: 150px 30px 100px 30px;
+      height: 33vh;
     }
 
 }
 h1 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   margin: 0;
 }
 h2 {
@@ -74,8 +76,7 @@ h2 {
 h3 {
   margin: 0;
   font-size: 36px;
-  font-weight: 100;
-  color: #182024;
+  font-weight: 400;
   text-transform: uppercase;
 }
 p {
@@ -118,11 +119,17 @@ li {
   padding: 1px;
   z-index: 1;
   margin-top: 325px;
+  align-items: flex-end;
+  display: flex;
+  height: 100vh;
+}
+.hello h2 {
+  margin-right: -750px;
+  z-index: 99;
 }
 .triangle {
   width: 0;
   height: 0;
-  /* border-left: 300px solid rgba(55,75,84,.9); */
   border-left: 300px solid rgba(219,186,175,.9);
   border-top: 200px solid transparent;
   border-right: 300px solid transparent;
@@ -148,7 +155,7 @@ li {
   background-color: #e8b37f;
 }
 .black {
-  background-color: #182024;
+  background-color: #545454;
 }
 .gray {
   background-color: #FAFAFA;
@@ -171,7 +178,6 @@ li {
 .buttons {
   box-sizing: border-box;
   text-align: center;
-  margin: 100px 0 50px;
   padding: 100px 25px;
 }
 .doa, .opc, .pc {
@@ -179,7 +185,7 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .2s ease-in-out;
-  margin: 10px;
+  margin: 25px;
   width: 100%;
   height: auto;
 }
@@ -202,7 +208,7 @@ li {
   justify-content: center;
   align-items: center;
   height: 100%;
-  min-height: 150px;
+  min-height: 200px;
   box-sizing: border-box;
   margin: -1px;
 }
@@ -214,16 +220,13 @@ li {
   box-sizing: border-box;
   display: inline-block;
   text-align: center;
-  font-weight: 100;
   text-decoration: none;
   transition: all 100ms ease-in-out;
-  color: #182024;
-  font-weight: 700;
+  color: #545454;
+  font-weight: 400;
   padding: 25px;
-    width: 100%;
-}
-.about {
-  padding: 100px 0 0 0;
+  width: 100%;
+  font-size: 1.2rem;
 }
 .about-inner {
   display: -webkit-box;
@@ -232,8 +235,8 @@ li {
   display: -webkit-flex;
   display: flex;
   vertical-align: middle;
-  align-items: center;
   justify-content: center;
+  padding: 200px 0;
 }
 .about figure {
   width: 33%;

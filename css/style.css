@@ -9,7 +9,7 @@
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
   header {
     flex-direction: column;
   }
@@ -23,12 +23,16 @@
     padding: 10px;
     box-sizing: border-box;
   }
+  .intro {
+    height: 300px;
+    background-position: right 0%;
+  }
   .intro h2 {
     font-size: 75px;
     line-height: 75px;
   }
   .hello {
-    margin-top: 182px;
+    margin-top: 0px;
   }
   .title, .title h3, .title h4 {
     animation: none;
@@ -42,9 +46,6 @@
   }
   .text div {
     padding: 25px;
-  }
-  .intro {
-    height: 50vh;
   }
   .triangle {
     border-left: 100px solid rgba(219,186,175,.9);
@@ -75,6 +76,8 @@
     flex-direction: column;
     box-sizing: border-box;
     padding: 25px;
+    margin: auto;
+    max-width: 450px;
   }
   .about figure {
     width: 100%;
@@ -99,6 +102,8 @@
   }
   .work-index {
     flex-direction: column;
+    margin: auto;
+    max-width: 450px;
   }
   .work, .writing, .about, {
     min-height: 50vh;
@@ -127,5 +132,5 @@ Light pink: #dbbaaf
 Rich pink: #cd7d67
 Dark pink: #a5796f
 Gray: #7c7c7c
-Black: #182024
+Black: #545454
 Gold: #e8b37f */
